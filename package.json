@@ -1,0 +1,46 @@
+{
+  "name": "enzyme-by-example",
+  "version": "1.0.0",
+  "description": "A quick demo of setting up Enzyme, Chai, Mocha, and JSDOM for React testing",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "mocha --opts ./spec/mocha.opts"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "enzyme",
+    "react",
+    "javascript"
+  ],
+  "author": "Alex Pearson",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-autobind-class-methods": "^5.0.1",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "chai": "^4.1.2",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1",
+    "jsdom": "^12.0.0",
+    "mocha": "^5.2.0",
+    "sinon": "^6.3.4",
+    "sinon-chai": "^3.2.0"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}

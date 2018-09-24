@@ -1,0 +1,20 @@
+{
+  "presets":[
+    ["@babel/env", {
+        "targets": {
+          "browsers": ["last 2 versions"]
+        },
+        "loose": true,
+        "useBuiltIns": "usage"
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "autobind-class-methods",
+    ["@babel/plugin-proposal-class-properties", { "loose": false }],
+    ["module-resolver", {
+      "extensions": [".js", ".jsx" ]
+    }],
+  ]
+}

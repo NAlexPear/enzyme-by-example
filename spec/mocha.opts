@@ -1,0 +1,5 @@
+--require ./spec/babel-register.js
+--require ./spec/jsdom.js
+--require ./spec/setup.js
+--colors
+./spec/**/*.spec.js*
