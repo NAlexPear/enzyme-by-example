@@ -18,7 +18,8 @@
     "react/jsx-curly-spacing": [2, "always"],
     "react/display-name": 0,
     "jsx-quotes": ["error", "prefer-single"],
-    "implicit-arrow-linebreak": "off"
+    "implicit-arrow-linebreak": "off",
+    "no-unused-expressions": "off"
   },
   "settings": {
     "import/resolver": {
