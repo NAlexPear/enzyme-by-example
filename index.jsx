@@ -1,5 +1,6 @@
-import App from './src/app';
 import { render } from 'react-dom';
+import React from 'react';
+import App from './src/app';
 
 const root = document.querySelector('#root');
 
